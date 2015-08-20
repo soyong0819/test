@@ -10,7 +10,7 @@
                 <BUTTON text="close" onClick="cam.close"/>
                 <BUTTON text="front" onClick="cam.type='front'"/>
                 <BUTTON text="back" onClick="cam.type='back'"/>
-                <BUTTON text="take" onClick="cam.type='take'"/>
+                <BUTTON text="take" onClick="cam.takePicture"/>
             </WINDOW>
         </WINDOW>
     </UILAYOUT>
